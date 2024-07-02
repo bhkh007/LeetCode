@@ -1,3 +1,4 @@
+
 public class Solution {
     public int maxArea(int[] height) {
         int i = 0, j = height.length - 1;
@@ -13,9 +14,9 @@ public class Solution {
         }
         return ans;
     }
-} {
+} 
+
     
-}
 
 
 /* 
