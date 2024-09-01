@@ -6,7 +6,7 @@ class Solution {
         return !s.contains("01");
     }
 }
-
+   
 
 
 /* 
