@@ -1,4 +1,4 @@
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.List;
 
 class Solution {
@@ -10,8 +10,8 @@ class Solution {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         this.destination = destination;
         visited = new boolean[n];
-        graph = new List[n];
-       Arrays.setAll(graph, i-> new ArrayList<>());
+        //graph = new List[n];
+       //Arrays.setAll(graph, i-> new ArrayList<>());
         for (var e : edges){
             int u = e[0], v = e[1];
             graph[u].add(v);
